@@ -1,7 +1,9 @@
+
+
 body {
     margin:0px;
     overflow-x: hidden;
-    background-color: #ebd5d7;
+    background-color: #e06e55;
     float: center;
     font-family: 'Lucida Sans Regular', sans-serif;
 }
@@ -10,24 +12,24 @@ div {
     padding: 10px;
     position: relative;
     background-color: white;
+    border: solid 2px #ad422e;
     max-width: 80%;
-    border:solid 2px #CE4257;
     align-content: center;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .content {
     height: 500px;
+    background-color: white;
 }
 
 .header {
-    background-color: #720026;
+    background-color: #4F000B;
     color: #F3F3F3;
     display: block;
     text-align: center;
     width: 100%;
-    border-bottom: solid #ce4257;
     font-size: 24px;
 }
 
@@ -57,14 +59,13 @@ li {
     display: block;
     text-align: center;
     width: 100%;
-    border-top: double #ce4257;
     margin-bottom: 0px;
 }
 
 iframe.dashboard {
     width: 90%;
     height: 100%;
-    border: 2px solid #FDAF7B;
+    border: 2px solid #FFBE98;
     overflow:hidden;
     overflow-x:hidden;
     overflow-y:hidden;
