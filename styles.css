@@ -1,5 +1,3 @@
-
-
 body {
     margin:0px;
     overflow-x: hidden;
@@ -8,25 +6,63 @@ body {
     font-family: 'Lucida Sans Regular', sans-serif;
 }
 
-div {
-    padding: 10px;
+/*GENERAL LAYOUT*/
+div.section, .header, .footer {
+    padding: 10px; /*gives inside padding*/
     position: relative;
     background-color: white;
     border: solid 2px #ad422e;
     max-width: 80%;
     align-content: center;
+    margin: auto; /*spaces side margins out*/
+    margin-bottom: 10px; /*gives spaceing after each section*/
+    height: auto;
+    float: inline;
+}
+
+
+
+/*ABOUT US section 2 columns*/
+.container {
+    border: solid 1px #FFBE98; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0px;
+    margin-bottom: 20px;
+
+}
+
+/*text*/
+.sidenotes {
+    border: none;
+    height: 100%;
+    float: right;
+    position: relative;
+    object-fit: scale-down;
+    padding: 5px;
+    text-align: center;
+}
+
+/*image*/
+.sideimg {
+    border: none;
+    height: auto;
+    /*float: right;
+    position: relative;
+    object-fit: scale-down;*/
+    padding: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+img.side {
+    max-width: 50%;
     margin: auto;
-    margin-bottom: 10px;
-
 }
 
-.content {
-    height: 900px;
-}
-.map {
-    height: 500px;
-}
-
+/*HEADER SECTION SPECIFIC*/
 .header {
     background-color: #4F000B;
     color: #F3F3F3;
@@ -56,6 +92,15 @@ li {
     display: inline;
 }
 
+/*SECTION SPECIFIC FORMATTING*/
+.content {
+    height: 900px;
+}
+
+.map {
+    height: 500px;
+}
+
 .footer {
     background-color: #4F000B;
     color: #ffffff;
@@ -66,12 +111,12 @@ li {
 }
 
 iframe.map {
-    width: 100%;
+    max-width: 100%;
     height: 85%;
     border: 2px solid #FFBE98;
     overflow:hidden;
-    margin: 0px;
-    position: block;
+    margin: auto;
+    display: block;
 }
 
 iframe.dashboard {
