@@ -18,6 +18,10 @@ body{
   border-top-right-radius: 10px;
 
 }
+.header h1{
+  padding-top: 30px;
+  margin-top: 20px;
+}
 .navigation{
   display: inline-flex;
   gap: 30px;
