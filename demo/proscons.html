@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web 4 Project</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://js.arcgis.com/4.28/esri/themes/light/main.css" />
+        <!-- Fontawesome link: Font Awesome Intro https://www.w3schools.com/icons/fontawesome_icons_intro.asp -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        
+        <!-- JavaScript -->
+        <script src="script.js" defer></script>
+        <script src="https://js.arcgis.com/4.28/"></script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Indoor Mapping Dashboard (GEOM99)</h1>
+            <p>Web 4</p>
+            <div class="navigation">
+                <a href="index.html">Home</a>
+                <a href="methodology.html">Methodology</a>
+                <a href="solution.html">Solution</a>
+                <a href="">Pros and Cons</a>
+            </div>
+        </div>
+
+        <div>
+            <h1>Pros, Cons and Limitations</h1>
+        </div>
+        
+        <div class="hero">
+            <div class="left">
+                <h2> Project Dashboard </h2>
+                <div class="viewDiv"></div>
+            </div>
+            <div class="right">
+                <h2>Experience Builder</h2>
+                <p> Using ESRI ArcGIS Online Experience Builder for indoor navigation and routing has proven effective in several aspects while presenting challenges in others. One notable success is the functionality of navigation widgets, which significantly enhance indoor navigation experiences. However, a crucial requirement for this feature to work optimally is the necessity for indoor spaces to be "floor aware." Unfortunately, the UDOT floor plans did not have this function - that the mapping system must recognize and differentiate between various floors within a building. While this requirement ensures accurate indoor navigation, it also poses a limitation as not all indoor spaces are inherently floor-aware. </p>
+                <p>On the other hand, the routing widget within ArcGIS Online EB demonstrates versatility by providing directions for outdoor spaces without the constraint of floor awareness. Our sample outdoor data of Newmarket Parks allows the user to navigate from point A to B with ease. </p>
+                <p>Additionally, ArcGIS Online EB offers the advantage of displaying maps in both 2D and 3D formats, with the latter utilizing ArcScene. This capability significantly enhances the visualization aspect of navigation, particularly in complex indoor environments where spatial orientation is critical. By using 3D visualization, users gain a realistic representation of indoor spaces. </p>
+            </div>
+        </div>
+
+        
+  
+        <!-- Site footer -->
+        <footer class="site-footer">
+            <hr>
+            <div class="row">
+                <p class="copyright-text">Copyright &copy; 2024 All Rights Reserved by 
+                    <a href="#">Web 4</a>.
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
