@@ -74,6 +74,9 @@ body{
 .mySlides {
     display: none;
 }
+.mySlides.active {
+    display: block;
+}
 
 /* Methodology Section CSS */
 .hero1{
