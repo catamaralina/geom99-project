@@ -21,6 +21,7 @@ body{
 .header h1{
   padding-top: 30px;
   margin-top: 20px;
+  font-size: 40px;
 }
 .navigation{
   display: inline-flex;
