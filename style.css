@@ -42,18 +42,11 @@ body{
   grid-template-columns: 60% 40%;
   
 }
-.hero1{
-  margin: 10px;
-  display: grid;
-  grid-template-columns: 40% 60%;
-  
-}
 .left .viewDiv, .left .viewDiv iframe{
   width: 850px;
   height: 600px;
   padding: 10px;
 }
-
 .hero .right{
   text-align: justify;
   background-color: #CBDABB;
@@ -64,13 +57,20 @@ body{
   border-bottom-right-radius: 10px;
   font-family: Nunito, sans-serif;
 }
-.hero1 .right .viewDiv, .hero1 .right .viewDiv iframe{
-  width: 850px;
-  height: 600px;
-  padding: 10px;
-}
 
-.hero1 .left{
+
+
+/* Methodology Section CSS */
+.hero1{
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin-bottom: 40px;
+}
+.left1 .View, .left1 h2 {
+  margin-left: 50px;
+}
+.hero1 .right1{
   text-align: justify;
   background-color: #CBDABB;
   margin: 0px;
@@ -80,6 +80,32 @@ body{
   border-bottom-right-radius: 10px;
   font-family: Nunito, sans-serif;
 }
+
+.hero2{
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin-bottom: 40px;
+}
+.hero2 .left2{
+  text-align: justify;
+  background-color: #CBDABB;
+  margin: 0px;
+  padding: 30px;
+  border: 1px black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-family: Nunito, sans-serif;
+}
+
+.right2 .View, .right2 h2 {
+ margin-left: 50px;
+}
+
+
+
+
+
 
 
 .responsive-cell-block {
