@@ -115,8 +115,8 @@ body{
 
 
 
-/* Solution CSS */
-.buttons {
+/* SOLUTION CSS */
+/* .buttons {
   width: 100%;
   border: none;
   border-radius: 50%;
@@ -137,14 +137,27 @@ body{
 
 .sol:hover {
   color: rgb(89, 111, 234);
-}
+} */
 
-.solution, .solution iframe{
-  border: #737373 1px;
+.solution, iframe.solif {
   width: 100%;
-  min-height: 1000px;
+  min-height: 600px;
+  max-height: 1500px;
+  margin: auto;
 }
 
+.solcont {
+  padding: 10px; /*gives inside padding*/
+  position: relative;
+  background-color: white;
+  border: solid 2px #093e23;
+  max-width: 90%;
+  align-content: center;
+  margin: auto; /*spaces side margins out*/
+  margin-bottom: 10px; /*gives spaceing after each section*/
+  height: auto;
+  float: inline;
+}
 
 
 .responsive-cell-block {
