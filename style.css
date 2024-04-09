@@ -71,26 +71,8 @@ body{
 }
 
 /* Slideshow */
-.slideshow-container {
-    max-width: 100%;
-    position: relative;
-    margin: auto;
-}
-
 .mySlides {
     display: none;
-    width: 100%;
-    height: auto;
-}
-
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
 }
 
 /* Methodology Section CSS */
