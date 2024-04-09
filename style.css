@@ -71,9 +71,19 @@ body{
 }
 
 /* Slideshow */
+.slideshow-container img {
+    width: 100%;
+    height: auto;
+}
+
+.slideshow-container {
+    height: 400px; 
+}
+
 .mySlides {
     display: none;
 }
+
 .mySlides.active {
     display: block;
 }
