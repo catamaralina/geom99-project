@@ -139,11 +139,17 @@ body{
   color: rgb(89, 111, 234);
 } */
 
-.solution, iframe.solif {
+.solution, iframe.solif{
   width: 100%;
   min-height: 600px;
   max-height: 1500px;
   margin: auto;
+}
+
+img.solim {
+  height: 150%;
+  margin: auto;
+  display: block;
 }
 
 .solcont {
@@ -156,7 +162,6 @@ body{
   margin: auto; /*spaces side margins out*/
   margin-bottom: 10px; /*gives spaceing after each section*/
   height: auto;
-  float: inline;
 }
 
 
