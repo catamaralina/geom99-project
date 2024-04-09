@@ -42,11 +42,10 @@ body{
   grid-template-columns: 60% 40%;
   
 }
-.left .viewDiv{
+.left .viewDiv, .left .viewDiv iframe{
   width: 850px;
   height: 600px;
   padding: 10px;
-  background-color: #000;
 }
 
 .right{
