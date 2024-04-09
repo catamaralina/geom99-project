@@ -104,7 +104,35 @@ body{
 
 
 
+/* Solution CSS */
+.buttons {
+  width: 100%;
+  border: none;
+  border-radius: 50%;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  display: inline-block;
+}
 
+.sol {
+  color: black; 
+  border: 2px solid #9ebaff;
+}
+
+.sol:hover {
+  color: rgb(89, 111, 234);
+}
+
+.solution, .solution iframe{
+  border: #737373 1px;
+  width: 100%;
+  min-height: 1000px;
+}
 
 
 
