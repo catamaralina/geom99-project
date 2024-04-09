@@ -47,6 +47,18 @@ body{
   height: 600px;
   padding: 10px;
 }
+.left .viewDiv .expand{
+  border-color: #000 1px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: absolute;
+  top: 70%;
+  left: 40%;
+}
 .hero .right{
   text-align: justify;
   background-color: #CBDABB;
