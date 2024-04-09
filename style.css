@@ -64,6 +64,12 @@ body{
   border-bottom-right-radius: 10px;
   font-family: Nunito, sans-serif;
 }
+.hero1 .right .viewDiv, .hero1 .right .viewDiv iframe{
+  width: 850px;
+  height: 600px;
+  padding: 10px;
+}
+
 .hero1 .left{
   text-align: justify;
   background-color: #CBDABB;
