@@ -44,13 +44,14 @@ h2{
 }
 .navigation a{
   color: #000;
+  text-decoration:none;
+  padding: 10px 20px;
+  border-radius: 5px;
 }
 
 .navigation a:hover{
   color:#454c53;
-   padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration:none;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 .hero{
   margin: 10px;
