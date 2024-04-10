@@ -129,11 +129,25 @@ h2{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4), 0 12px 40px 0 rgba(0,0,0,0.35);
 }
 
-.right h2, .left2 h2, .right2 h2 {
+.right h2 {
     transition: text-shadow 0.3s;
 }
 
-.right h2:hover, .left2 h2:hover, .right2 h2:hover {
+.right h2:hover {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.left2 h2 {
+    transition: text-shadow 0.3s;
+}
+
+.left2 h2:hover {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.right2 h2 {
+    transition: text-shadow 0.3s;
+}
+
+.right2 h2:hover {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
