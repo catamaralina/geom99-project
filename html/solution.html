@@ -34,20 +34,46 @@
                 <iframe class="solif" src="https://fleming.maps.arcgis.com/apps/instant/3dviewer/index.html?appid=59d282ebf6a548abbab260a57b491549"></iframe>
             </div>
         </div>
-        
+
         <div class="solcont"> <!--solution description-->
             <h2>Description</h2>
             <p>ArcGIS Instant Apps are a solution that makes it quick and easy to display your maps and data in an engaging manner. By choosing on of many templates then 
                 setting basic configurations, you can quickly share an application that suits your audiences needs. </p>
             
-            <h2>The SetUp</h2>
-            <h3>ArcScene Viewer</h3>
-            <p>The first </p>
+            <p>his proposed solution allows internal staff to view room-level information and can act as a navigational tool - it does not tell you how to get from point A to point B, but allows the user to 
+                view floor plans in 2D and 3D. Having the 3D capability can really get a feel of how things look in the building before being there in person. Being able to select different
+                features and get a pop-up of information is also valuable.</p>
+
+            <h2>The Setup: ArcScene Viewer</h2>
+            <p>The first step was bringing the data in ArcScene, which was simple as starting a Scene, browsing for and selecting the UDOT Floor Plans feature layer package. 
+                This brought in 10 layers - 5 detailed line drawings and 5 polygon layers with feature information. </p>
+            <p>For each of the polygon layers the main attribute chosen to visualize was the Floor (number) adn the 
+                3D drawing style was chosen. Going into the 3D options the attribute values could be set. Each layer got a different color at 50% transparency and the height was set to 3m. For each layer, the elevation was set to be relative to the ground. 
+                Depending on what floor it was, it varied in 3m increments. The basement was -3m (because it is underground), the 1st floor as 0m, the 2nd floor as 3m, 3rd as 6m and 4th as 9m. There is additional option for labels, but 
+                decided that was too cluttered. </p>
+
+            <p>For the line layers, no attribute was visualized and the 3D path drawing style was selected. The drawing profile was a wall style and the color was set similar to the polygon pair, but at 100% opacity. 
+                These layers were also set to a fixed height of 3m and set the elevation relative to the ground like their polygon counterparts. </p>
+            <p>In the Scene Viewer the basemap can be set and for this scene a topographic map with 50% transparency (to be able to see the basement layer) was set. There is option to do 3D basemaps, but it was not necessary and made the scene more busy.</p>
+            <p>The final thing that was done was in the Slide Manager and different snapshots of the scene were taken. Each layer got a '2D' snapshot, with the other layers toggled off. Then the view from each N/E/S/W was taken for general observation. </p>
+            
+            <h2>ArcGIS Instant Apps</h2>
+            <p>Right in the ArcScene, underneath the Save button, there is a button that shows a few different apps you can bring the Scene into. Clicking on the Instant Apps, it brings you straight to the Create page. It starts you off with some 
+                template suggestions and asks questions, like 'What is your goal for the app', to help you filter through the different templates. This narrowed down the options and the 3D Viewer template was chosen and created. The Express version is 
+                the one that is first seen that gives the most essential configuration settings. Toggling it off, all the options for each section can be set. </p>
+            <p>The first section is Scene: Select a scene to display, view the information and set a map area that people can use.</p>
+            <p>The next section is About: Here you configure tools that provide the user information while using it (like an introduction window or header) and allow more map accessibility.</p>
+
+            <p>The third section is Interacivity: Configure different map tools (such as displaying the preset slides made in ArcScene! or adding Navigation controls), modications to the map can also be made (such as attribute filters, daylight settings, layer lists, etc.) 
+                This section generally covers all the different map widgets/tools that you would want displayed in the app. </p>
+            <p>The final section is Theme & Layout: Change the theme to dark/light and whatever color scheme makes you happy. Here you can set where you want each of the enabled map tools to be displayed. </p>
+            <p>Once everything is configured to your liking, hit Publish, change the sharing access and launch! </p>
+            
         </div>
 
 
         <div class="solcont">
-            <img class="solim" src="../media/InstAppFx.gif" alt="Instant App Functionality GIF"> 
+            <img class="solgif" src="../media/InstAppFx.gif" alt="Instant App Functionality GIF"> 
         </div>
 
         <div class="solcont"> <!--DEBRIEFING-->
@@ -63,10 +89,17 @@
                 could. This solution may not be aimed at our audience, however, this would be a great tool for showrooms or public viewing of the clients proposal/work. The client would generally
                 like/need slightly more in-depth functions for working and viewing the data. 
             </p>
+            <h2>Next Steps</h2>
+            <p>- Being able to bring in 2 different views into an application defenitely seems doable - to be able to show both 2D and 3D side by side. </p>
+            <p>- Routing is always important, such as being able to route to emergency exits or an evacuation location. While Instant App doesn't show routing, diving deeper into 
+                using rest services to bring in routing in may be an option. 
+            </p>
         </div>
-
         <div class="solcont">
-            <img class="solim" src="../media/ArcScene.gif" alt="ArcScene Functionality GIF"> 
+            <img class="solim" src="../media/ArcSceneView.png" alt="ArcScene">
+        </div>
+        <div class="solcont">
+            <img class="solgif" src="../media/ArcScene.gif" alt="ArcScene Functionality GIF"> 
         </div>
 
         <!-- Site footer -->

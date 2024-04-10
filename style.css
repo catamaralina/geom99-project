@@ -146,10 +146,17 @@ body{
   margin: auto;
 }
 
-img.solim {
-  height: 150%;
+img.solgif {
+  height: 100%;
   margin: auto;
   display: block;
+}
+
+.solim {
+  height: 100%;
+  margin: auto;
+  display: block;
+  width: -webkit-fill-available;
 }
 
 .solcont {
