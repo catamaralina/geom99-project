@@ -22,3 +22,6 @@ Create a dashboard application that allows internal staff to view, edit and upda
 ## Technology Used
 ESRI (ArcGIS Online, Indoors, Dashboard/Experience Builder)
 
+## Link to our ESRI Group Page
+https://fleming.maps.arcgis.com/home/group.html?id=499e8884b0ea4c37827e810b1972f50a#overview
+
