@@ -21,7 +21,6 @@ body{
   background-image: url('media/header.png'); 
   background-size: cover; 
   background-position: center;
-
 }
 
 .header h1{
@@ -580,6 +579,9 @@ body {
   line-height:24px;
   color:#737373;
   text-align: center;
+  background-image: url('media/footer.png');
+  background-size: cover;
+  background-position: center;
 }
 .site-footer hr
 {
