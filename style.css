@@ -23,6 +23,12 @@ body{
   margin-top: 20px;
   font-size: 40px;
 }
+
+h2{
+  font-size: 30 px;
+  font-weight: bold;
+}
+
 .navigation{
   display: inline-flex;
   gap: 30px;
