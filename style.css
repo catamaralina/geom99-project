@@ -95,6 +95,7 @@ h2{
 }
 .left1 .View, .left1 h2 {
   margin-left: 50px;
+  text-decoration: none;
 }
 .hero1 .right1{
   text-align: justify;
@@ -124,9 +125,10 @@ h2{
 
 .right2 .View, .right2 h2 {
  margin-left: 50px;
+ text-decoration: none;
 }
 
-/* shadowing for UDOT image / index.html text */
+/* shadowing for UDOT image / text */
 
 .w3-hover-shadow {
     transition: box-shadow 0.3s;
