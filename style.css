@@ -151,6 +151,22 @@ h2{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.right1 h2 {
+    transition: text-shadow 0.3s;
+}
+
+.right1 h2:hover {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.left1 h2 {
+    transition: text-shadow 0.3s;
+}
+
+.left1 h2:hover {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
 /* SOLUTION CSS */
 /* .buttons {
   width: 100%;
