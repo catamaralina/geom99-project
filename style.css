@@ -113,7 +113,7 @@ body{
  margin-left: 50px;
 }
 
-/* shadowing for UDOT image */
+/* shadowing for UDOT image / index.html text */
 
 .w3-hover-shadow {
     transition: box-shadow 0.3s;
@@ -123,6 +123,13 @@ body{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4), 0 12px 40px 0 rgba(0,0,0,0.35);
 }
 
+.right h2 {
+    transition: text-shadow 0.3s;
+}
+
+.right h2:hover {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
 
 /* SOLUTION CSS */
 /* .buttons {
