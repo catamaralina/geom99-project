@@ -132,40 +132,45 @@ h2{
 .right h2 {
     transition: text-shadow 0.3s;
 }
-
 .right h2:hover {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.left h2 {
+    transition: text-shadow 0.3s;
+}
+.left h2:hover {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .left2 h2 {
     transition: text-shadow 0.3s;
 }
-
 .left2 h2:hover {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .right2 h2 {
     transition: text-shadow 0.3s;
 }
-
 .right2 h2:hover {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-
 .right1 h2 {
     transition: text-shadow 0.3s;
 }
-
 .right1 h2:hover {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .left1 h2 {
     transition: text-shadow 0.3s;
 }
-
 .left1 h2:hover {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-
+.solcont h2 {
+    transition: text-shadow 0.3s;
+}
+.solcont h2:hover {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
 
 /* SOLUTION CSS */
 /* .buttons {
