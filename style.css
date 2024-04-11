@@ -72,8 +72,12 @@ h2{
   margin: 10px;
   display: grid;
   grid-template-columns: 60% 40%;
-  
 }
+
+.left{
+  margin-right: 50px;
+}
+  
 .left .viewDiv, .left .viewDiv iframe{
   width: 850px;
   height: 600px;
@@ -244,8 +248,8 @@ img.solgif {
   padding: 10px; /*gives inside padding*/
   position: relative;
   background-color: white;
-  border: solid 2px #093e23;
-  max-width: 90%;
+  border: solid 2px #72767f;
+  max-width: 80%;
   align-content: center;
   margin: auto; /*spaces side margins out*/
   margin-bottom: 10px; /*gives spaceing after each section*/
@@ -364,6 +368,11 @@ img.solgif {
 
 .team-member-image {
   max-width: 100%;
+}
+
+/* STAR RATING */
+.st {
+  width: 150px;
 }
 
 /* RESPONSIVE DESIGN */
@@ -616,7 +625,7 @@ body {
 }
 .site-footer a:hover
 {
-  color:##c9cdd2;
+  color:#c9cdd2;
   text-decoration:none;
 }
 .copyright-text

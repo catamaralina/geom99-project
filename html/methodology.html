@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Explored Solutions</title>
         <!-- CSS -->
-        <link rel="stylesheet" href="../style.css" />
-        <link rel="stylesheet" href="https://js.arcgis.com/4.28/esri/themes/light/main.css" />
+        <link rel="stylesheet" href="../style.css">
+        
         <!-- Fontawesome link: Font Awesome Intro https://www.w3schools.com/icons/fontawesome_icons_intro.asp -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
         <link rel="icon" href="../media/favicon-32x32.png" type="image/png">
         
         <!-- JavaScript -->
         <script src="../script.js" defer></script>
-        <script src="https://js.arcgis.com/4.28/"></script>
+
     </head>
     <body>
         <div class="header">
@@ -26,31 +26,33 @@
         
         <div class="hero1">
             <div class="left1">
-                <h2>ArcGIS Experience Builder - Outdoor Routing</h2>
+                <h2><a href="https://experience.arcgis.com/experience/d7d3bc242a0f4985adb165a76e3560ce" target="_blank">ArcGIS Experience Builder - Outdoor Routing</a></h2>
                 <div class="View">
-                    <img src="../media/InstAppFx.gif" alt="Instant App Functionality GIF"> 
+                    <img src="../media/chloe_EBrouting.gif" alt="Outdoor Routing EB GIF" width="800"> 
                 </div>
             </div>
             <div class="right1">
                 <h2>Description</h2>
-                <p>Write descripion here.</p>
+                <p>A solution centered on navigating smaller area outdoor spaces which includes a Directions widget, a Near Me widget, and a search bar. </p>
+                
                 <h2>Major Learning Outcomes</h2>
-                <p>Write description here.</p>
+                <p>Out of the <a href="https://doc.arcgis.com/en/experience-builder/latest/configure-widgets/widgets-overview.htm" target="blank">many available widgets</a> , the Directions and Near Me widgets provided the best solution for navigating the Newmarket Parks data. The Directions tool allows the user to select a start and end point from anywhere on the map including an object from a feature layer, an intersection, or any coordinates. The tool then gives the user the option to choose from walking or driving time. The Near Me tool can be configured to allow the user to define a search area radius and it will return all features within that area. Both tools proved very useful for outdoor navigation. Finally, the Search widget was customized to only look for park names or feature categories (which included park woodlot, and open spaces). Being able to tailor the widgets to only allow the user to access the data in a way the author wants is certainly an advantage. </p>
+                <p>As a whole, there is a lot of trial and error required when building an Experience Builder app which can be frustrating. Even the associated Esri documentation did not always help provide a clear answer to some of the various settings/options of each widget. </p>
                 <h2>What didn't work?</h2>
-                <p>Write description here.</p>
+                <p>Before landing on the Directions and Near Me widget, the Coordinates and Coordinate Conversion widget were also tested. The idea was that by using these widgets, the user could click on any part of the map and get directions between two sets of chosen coordinates. Both tools had a somewhat clunky interface and would not be intuitive to a user who is unfamiliar with coordinate formatting. Additionally, since the Directions tool can choose any location on the map the Coordinates tool would be redundant for this project’s purposes. </p>
             </div>
         </div>
 
         <div class="hero2">
             <div class="left2">
                 <h2>Description</h2>
-                <p>A basic solution that creates 3D scenes, brining your maps to life and helps visualize different scenarios. </p>
+                <p>A basic solution that creates 3D scenes, bringing your maps to life and helps visualize different scenarios. </p>
                 <h2>Major Learning Outcomes</h2>
                     <p>ArcScene Viewer was proven to be useful by creating 3D versions of UDOT's 2D floorplans. We discovered this can be done by extruding your features - allowing to set your 2D line features as 3D wall features by assigning them a height attribute (based on the floor plans)
                     </p>
                     
                     <p>ArcScene also allows the user to create snapshots of different angles and view specific layers with 3D surrounds. For 
-                        <a href="https://arcg.is/1LSWye" target="blank">Newmarket Parks</a>, by brining it into a 3D scene, it really gives the viewer a sense of the topography and surrounding area. ArcScene also has neat features that can show the user what the 3D render would look like at certain times of day (sunlight/shadows) and in different weather conditions (snow/rain). 
+                        <a href="https://arcg.is/1LSWye" target="blank">Newmarket Parks</a>, by bringing it into a 3D scene, it really gives the viewer a sense of the topography and surrounding area. ArcScene also has neat features that can show the user what the 3D render would look like at certain times of day (sunlight/shadows) and in different weather conditions (snow/rain). 
                     By creating snapshots, or slides, 2D viewing of the building layers can also be achieved for the floor plans. These slides are then also able to be brought in to other applications. 
                     </p>
                     
