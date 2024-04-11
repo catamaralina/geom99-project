@@ -372,6 +372,11 @@ img.solgif {
   max-width: 100%;
 }
 
+/* STAR RATING */
+.st {
+  width: 150px;
+}
+
 /* RESPONSIVE DESIGN */
 
 @media (max-width: 500px) {
@@ -622,7 +627,7 @@ body {
 }
 .site-footer a:hover
 {
-  color:##c9cdd2;
+  color:#c9cdd2;
   text-decoration:none;
 }
 .copyright-text
