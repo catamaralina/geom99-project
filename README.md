@@ -13,16 +13,16 @@ https://fleming.maps.arcgis.com/home/group.html?id=499e8884b0ea4c37827e810b1972f
   - Tali Jonker
 
 ## Ideal 
-Using a web-based solution, staff of UDOT should be able to access current room-level information (number of desks per room, room use, etc.), edit/update information as needed, and navigate between rooms. 
+Using a web-based solution, staff of UDOT should be able to access current room-level information and navigate between rooms and outdoor spaces around their building.
 
 ## Reality
-Staff currently do not have access to one single digital platform that provides room-level information for their business readily available at their fingertips. 
+Staff currently do not have access to one single digital platform that provides room-level information for their business readily available at their fingertips. Navigation between rooms and buildings is currently paper-based and outdated. 
 
 ## Consequences
-Issues can arise during emergency situations such as accessing the total number of staff in each room or navigating emergency exits. Staff submitting maintence requests or organizing maintenance/cleaning schedules is not available in one place. Navigation between rooms is currently paper-based and outdated. 
+Issues can arise during emergency situations such as accessing the total number of staff in each room, finding the closest emergency exit, or navigating safe meeting areas outside.
 
 ## Proposal
-Create a dashboard application that allows internal staff to view, edit and update room-level information of their workplace, as well as act as a navigational tool. 
+Create a dashboard application that allows internal staff to view room-level information and act as a navigational tool between rooms and/or buildings.
 
 ## Technology Used
 ESRI (ArcGIS Online, Indoors, Dashboard/Experience Builder)
