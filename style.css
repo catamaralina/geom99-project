@@ -45,6 +45,9 @@ h2{
   font-size: 18px;
   font-weight: bold;
 }
+
+
+
 /* ---- */
 
 .navigation{
@@ -76,18 +79,13 @@ h2{
   height: 600px;
   padding: 10px;
 }
-.left .viewDiv .expand{
-  border-color: #000 1px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 12px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  position: absolute;
-  top: 70%;
-  left: 40%;
+.left p{
+  text-align: justify;
+  margin-left: 15px;
+  margin-right: 45px;
+
 }
+
 .hero .right{
   text-align: justify;
   background-color: #c9cdd2;
