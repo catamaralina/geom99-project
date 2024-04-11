@@ -139,6 +139,11 @@ h2{
  margin-left: 50px;
  text-decoration: none;
 }
+.right2 .View img{
+  height: 500px;
+  width: 800px;
+  object-fit: contain;
+}
 
 /* shadowing for UDOT image / text */
 
