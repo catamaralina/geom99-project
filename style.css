@@ -60,6 +60,7 @@ nav{
   font-size: 0.8vw;
   backdrop-filter: blur(8px);
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+  margin-bottom: 15px;
 }
 
 .navbar_container {
