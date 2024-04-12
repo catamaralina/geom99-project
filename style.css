@@ -189,6 +189,11 @@ a:hover {
 h2{
   font-size: 18px;
   font-weight: bold;
+  margin-top: 15px;
+}
+
+p{
+  margin-top: 15px;
 }
 
 
