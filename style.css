@@ -171,7 +171,7 @@ nav a:active{
 
 /* LINK & HEADER TEXT FORMATTING*/
 a {
-  color: rgb(7, 102, 15);
+  color: darkslategrey;
   text-decoration: none;
   font-weight: bold;
 }
@@ -350,29 +350,7 @@ p{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-/* SOLUTION CSS */
-/* .buttons {
-  width: 100%;
-  border: none;
-  border-radius: 50%;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  display: inline-block;
-}
 
-.sol {
-  color: black; 
-  border: 2px solid #9ebaff;
-}
-
-.sol:hover {
-  color: rgb(89, 111, 234);
-} */
 
 .solution, iframe.solif{
   width: 100%;
@@ -398,7 +376,7 @@ img.solgif {
   padding: 10px; /*gives inside padding*/
   position: relative;
   background-color: white;
-  border: solid 2px #72767f;
+  border: solid 2px darkslategrey;
   max-width: 80%;
   align-content: center;
   margin: auto; /*spaces side margins out*/
