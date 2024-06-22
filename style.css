@@ -244,7 +244,7 @@ p, .left2 ol li, .right1 ol li, .left2 ul li, .right1 ul li {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-/* .hero{
+.hero{
   margin: 0px;
   display: grid;
   grid-template-columns: 60% 40%;
@@ -288,7 +288,7 @@ p, .left2 ol li, .right1 ol li, .left2 ul li, .right1 ul li {
   border: 1px black;
   border-radius: 10px;
   font-family: Raleway, sans-serif;
-} */
+}
 
 /* Methodology Section CSS */
 .hero1{
