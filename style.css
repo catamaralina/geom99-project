@@ -513,8 +513,8 @@ iframe {
 
 
 
-/* -------*/
-/* .solution, iframe.solif{
+
+.solution, iframe.solif{
   width: 100%;
   min-height: 600px;
   max-height: 1500px;
@@ -534,18 +534,18 @@ img.solgif {
   width: -webkit-fill-available;
 } */
 
-/* .solcont {
-  padding: 10px; /*gives inside padding
+.solcont {
+  padding: 10px; /*gives inside padding*/
   position: relative;
   background-color: white;
   border: solid 2px darkslategrey;
   max-width: 80%;
   align-content: center;
-  margin: auto; /*spaces side margins out
-  margin-bottom: 10px; /*gives spaceing after each section
+  margin: auto; /*spaces side margins out*/
+  margin-bottom: 10px; /*gives spaceing after each section*/
   height: auto;
 }
- */
+ 
 
 .responsive-cell-block {
   min-height: 75px;
